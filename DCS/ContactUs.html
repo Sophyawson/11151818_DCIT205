@@ -1,152 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <style>
- header{
-    position: fixed;
-    display: block;
-    background-color: white;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: 1000;
-    
-}
-
-.logo-design{
-    height: 35px;
-    width: auto;
-    cursor: pointer;
-    margin-left: 15px;
-    margin-top: 15px;
-    display: inline-block;
-   
-}
-
-
-ul{
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    margin-left: 15px;
-    margin-top: 27px;
-    font-size: 14px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: rgb(27, 27, 135);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-
-ul li a:hover{
-    color: rgb(132, 93, 21);
-}
-
-.Contactpic-design{
-    width: 1200px;
-    height:400px;
-    object-fit: contain;
-    margin-left: 0px;
-    margin-right: 0px;
-    overflow: hidden; 
-    filter: blur(2px)
-     
-}
-
-.overlay-text{
-    position: absolute;
-    top: 80px;
-    left: 400px;
-    bottom: 50px;
-    color: white;
-    font-size: 72px;
-    font-weight: 700px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    text-align: center;
-    display: inline-block;
-    margin-top: 70PX;
-    margin-bottom: 0;
-    padding: 20px;
-    z-index: 1px;
-    
-}
-
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        .container {
-            display: flex;
-            max-width: 1200px;
-            margin: 20px auto;
-        }
-
-        .box {
-            flex: 1;
-            background-color: white;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            padding: 20px;
-            margin: 0 10px;
-        }
-
-        .form-box {
-            color: rgb(8, 8, 94);
-  
-        }
-
-        .contact-box {
-            color:rgb(8, 8, 94) ;
-           
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        label {
-            margin-bottom: 5px;
-        }
-
-        input,
-        textarea {
-            padding: 8px;
-            margin-bottom: 15px;
-        }
-
-        button {
-            padding: 8px; 
-            background-color: rgb(8, 8, 94);
-            color:white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-            width: 100px; 
-        }
-    </style>
+    <title>ContactUs</title>
+    <link rel="stylesheet" href="/styles/ContactUs.css">
 </head>
-
 <body>
-
     <header>
         <nav>
            <img class="logo-design" src="/images/comScience_logo.png" alt="Department Logo" title="Department Logo">
@@ -157,7 +17,7 @@ ul li a:hover{
                        <li><a href="Home.html">HOME</a></li>
                        <li><a href="About.html">ABOUT</a></li>
                        <li><a href="ContactUs.html">CONTACT US</a></li>
-                       <li><a href="Research.html">RESEARCH</a></li>
+                       <li><a href="Gallery.html">GALLERY</a></li>
                    </ul>
              
 
@@ -166,45 +26,70 @@ ul li a:hover{
 
    </header>
    
-   <div>
-       
-   <img class="Contactpic-design" src="/images/C-pic.jpg">
-   <div class="overlay-text">ContactUs</div>
-  
-   </div>
 
-    <div class="container">
-        <div class="box form-box">
-            <h2>Contact Form</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
 
-                <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject" required>
-
-                <label for="message">Your Message (Optional):</label>
-                <textarea id="message" name="message"></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
-        </div>
-
-        <div class="box contact-box">
-            <h2>Contact Us</h2><br>
-            <h4>If you have any questions or concerns, feel free to reach out to us:</h4>
-            <p>Email:<br>
-                <a href="dcs@ug.edu.gh">dcs@ug.edu.gh</a>
-            </p>
-            <br><br><br>
-            <p>Phone: <br>+233 501 382 035,<br>+233 559 145 698
-
+    <section class="contact">
+        <div class="content">
+            <h2>Contact US</h2>
+            <h4>Get in touch with us!</h4>
+            <p>We love hearing from you!
+                 Whether you have a question, feedback, or just want to say hello, we're here and eager to assist. 
+                Your input is invaluable to us.
             </p>
         </div>
-    </div>
+
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon">&#9872;</div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>University Of Ghana, Legon Campus <br>
+                            Opposite Mathematics Department</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">&#128222;</div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>
+                            +233 501 382 035 <br>+233 559 145 698
+                            </p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icon">&#9993;</div>
+            <div class="text">
+                <h3>Email</h3>
+                <p>dcs@ug.edu.gh</p>
+            </div>
+        </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message here...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="Submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
 </body>
-
 </html>
