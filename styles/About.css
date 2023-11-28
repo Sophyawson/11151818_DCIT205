@@ -5,6 +5,7 @@ header{
     top: 0px;
     left: 0px;
     right: 0px;
+    bottom: 550px;
     z-index: 1000;
     
 }
@@ -20,11 +21,12 @@ header{
 }
 
 
-ul{
+.headerul-design{
     float: right;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 ul li{
@@ -123,8 +125,8 @@ p{
 }
 
 img {
-    width: 600px; 
-    height: 400px;
+    
+    height: 300px;
     margin-right: 20px;
 }
 
@@ -133,9 +135,7 @@ img {
     padding: 20px; 
 }
 
-p {
-    margin: 0;
-}
+
 
 .O-title{
     text-align: center;

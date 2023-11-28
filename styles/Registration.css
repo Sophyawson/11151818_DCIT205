@@ -1,4 +1,49 @@
-/* Style your registration form */
+header{
+    position: fixed;
+    display: block;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+    
+}
+
+.logo-design{
+    height: 45px;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: inline-block;
+   
+}
+
+
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 15px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(8, 8, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(132, 93, 21);
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -25,7 +70,7 @@ form {
     flex-direction: column;
 }
 
-/* Responsive styles */
+
 @media only screen and (max-width: 600px) {
     .registration-container {
         max-width: 100%;
@@ -55,7 +100,7 @@ button:hover {
     background-color: rgb(46, 46, 168);
 }
 
-/* Style for vertical arrangement of checkboxes */
+
 .checkbox-item {
     margin-bottom: 8px;
 }

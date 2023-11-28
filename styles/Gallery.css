@@ -23,7 +23,7 @@ body{
 }
 
 
-ul{
+.headerul-design{
     float: right;
     display: flex;
     justify-content: center;
@@ -140,14 +140,26 @@ ul li a:hover{
     }
 }
 
-footer{
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+ body{
+    background: beige;
+   
+
+ }
+
+ footer{
     width: 100%;
     position: relative;
-    top: 0;
+    bottom: 0;
     background: linear-gradient(to right, #050d3d, rgb(126, 88, 18));
     color: #fff;
     padding: 100px 0 30px;
-    
     font-size: 19px;
     line-height: 20px;
  }
@@ -189,7 +201,6 @@ footer{
  }
 
 .link-design{
-    
     list-style: none;
     margin-bottom: 12px;
  }
@@ -269,40 +280,7 @@ hr{
    overflow: hidden;
 }
 
-.underline span{
-   width: 15px;
-   height: 100%;
-   background: #fff;
-   border-radius: 3px;
-   position: absolute;
-   top: 0;
-   left: 10px;
-   animation: moving 2s linear infinite;
-
-}
-
-@keyframes moving{
-   0%{
-      left: -20px;
-   }
-   100%{
-      left: 100%;
-   }
-}
-
-@media (max-width: 700px){
-   footer{
-      bottom: unset;
-   }
-
-   .col{
-      flex-basis: 100%;
-      
-   }
-  
-   .col:nth-child(2), .col:nth-child(3){
-     flex-basis: 100%;
-   } 
-
-
+main {
+    flex: 1;
+    
 }
