@@ -87,10 +87,14 @@ h2{
 }
 
 img {
-    width: 600px; 
+   
     height: 400px;
     margin-right: 20px;
     margin-top: 35px;
+}
+
+.algorithms{
+    width: 700px;
 }
 
 .text-portion{

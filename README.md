@@ -66,13 +66,21 @@ Log in to your GitHub account.
    Visit your GitHub repository in the browser, and you should see your project files.
 
 ## Screenshots of each page of my **DCS** website
-hfzrtg
+
+All the screenshots are found in the Scrrenshots folder
+The name of the screenshot as follows:
+
+- ![This is the AboutUs page](path/to/../../Screenshots/AboutUs-screenshot.png)
+- ![This is the ContactUs page](path/to/../../Screenshots/ContactUs-screenshot.png)
+- ![This is the Events page](path/to/../../Screenshots/Events-screenshot.png)
+- ![This is the Gallery page](path/to/../../Screenshots/Gallery-screenshot.png)
+- ![This is the Home page](path/to/../../Screenshots/Home-screenshot.png)
+- ![This is the Level200tb page](path/to/../../Screenshots/Level200tb-screenshot.png)
+- ![This is the Location page](path/to/../../Screenshots/Location-screenshot.png)
+- ![This is the Registration page](path/to/../../Screenshots/Registration-screenshot.png)
+- ![This is the Resources page](path/to/../../Screenshots/Resources-screenshot.png)
+- ![this is the Studentcomplaints page](path/to/../../Screenshots/Studentcomplaints-screenshot.png)
 
 ## My learning experience
+
 Building a website as a beginner taught me a lot! I started with basic web languages like HTML for creating content, CSS for making things look nice. Git helped me keep track of changes and work with others. Learning about responsive design and other new features. Understanding how the back-end and databases work broadened my perspective. Deploying my site and managing domains seemed complex at first but became clearer. I realized the importance clarity and good design. I'm excited to keep learning in this ever-changing field!
-
-
-
-
-
-
